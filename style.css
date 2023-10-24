@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edeae7;
+    line-height: 1.6;
+}
+
+header h1 {
+    font-size: 36px;
+    background-color: #2a5889;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 24px;
+}
+#imagenes-container{
+    text-align: center;
+    text-decoration: underline;
+}
+#imagenes-container a{
+    display: inline-block;
+    margin:10px;
+}
