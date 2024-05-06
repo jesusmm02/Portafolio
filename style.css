@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edeae7;
+    line-height: 1.6;
+}
+
+
+.sobreMi{
+    margin: 0 auto;
+    width: 70vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sobreMi h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobreMi h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sobreMi h2 span{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(40, 97, 203);   
+}
+.sobreMi .info p{
+    font-size: 18px;
+}
+.info{
+    margin-top: 100px; 
+    margin-right: 20px;
+}
+.sobreMi img{
+    width: 250px; 
+    height: 270px; 
+    border-radius: 50%; 
+    margin-top: 75px;
+    margin-left: 90px;
+}
+
+
+.tecnologias{
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 880px;
+    height: 30vh;
+}
+#tituloTecno{
+    border-radius: 5px;
+    background-color: #9e9e9e;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+}
+#logos{
+    margin-top: 20px;
+}
+#logos img{
+    display: inline-block;
+    max-width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+
+.proyectos{
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    height: 145vh;
+}
+#tituloProyec{
+    border-radius: 5px;
+    background-color: #9e9e9e;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    padding: 10px;
+}
+#cartas{
+    padding: 30px;
+}
+
+
+.contacto{
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 28vh;
+}
+#tituloCont{
+    border-radius: 5px;
+    background-color: #9e9e9e;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#redes img{
+    display: inline-block;
+    max-width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.gmail {
+    text-align: center;
+}
+.gmail img {
+    display: block;
+    margin: 0 auto;
+}
+.gmail p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+}
